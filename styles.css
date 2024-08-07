@@ -1,0 +1,16 @@
+
+#container{
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+}
+
+#container > div{ 
+    flex: 1;
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+}
+
