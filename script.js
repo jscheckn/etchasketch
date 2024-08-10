@@ -1,6 +1,6 @@
 const container = document.getElementById('container');
-function makeDivs(numDivs){
-    for(let i = 0; i < numDivs; i++){
+function makeDivs(){
+    for(let i = 0; i < 256; i++){
         let square = document.createElement('div');
         container.appendChild(square);
         
@@ -10,4 +10,6 @@ function makeDivs(numDivs){
 
 }
 
-makeDivs(16);
+makeDivs();
+
+
